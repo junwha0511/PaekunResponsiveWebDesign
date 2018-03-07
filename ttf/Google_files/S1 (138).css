@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* default */
+*     { margin:0; padding:0; }
+img   { border:none; margin:0; padding:0; vertical-align:middle; }
+input { vertical-align:middle; }
+label { cursor:pointer; _cursor:hand} 
+
+html { padding:0; margin:0; width:auto; height:100%; }
+body {
+    margin:0; padding:0; width:auto; height:100%;
+    font-size:1em; color:#656565; 
+    font-family:"", Dotum, "", Gulim, "Lucida Grande", Tahoma, Verdana, AppleGothic, UnDotum, sans-serif; 
+}
+
+a:link    {text-decoration:none; color:#505050; background-color:transparent}
+a:visited {text-decoration:none; color:#505050; background-color:transparent}
+a:active  {text-decoration:none; color:#505050; background-color:transparent}
+a:hover   {text-decoration:none; color:#0000f0; background-color:transparent}
+
+h1,h2,h3,h4,h5,h6{font-size:12px;text-align:left; display:block ; overflow:hidden; position:absolute; left:0; top:-5000px;}
+
+hr {display:none;}
+
+.ellipsis {   
+    overflow:hidden;   
+    white-space:nowrap;   
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+    -moz-binding: url('ellipsis.xml#ellipsis');
+}  
+
+.debug {
+    border:1px solid #000000;
+}
+
+.hidden {
+	display:none;
+}
+
+
+#mainLayout {
+    position:relative;
+    margin:auto;
+    padding:auto;
+    width:1000px;
+}
+
+#baseLayout1 {
+    position:relative; float:left;
+    width:1000px;
+    height:330px;
+}
+
+#baseLayout2 {
+    position:relative; float:left;
+    width:230px;
+}
+
+#baseLayout3 {
+    position:relative; float:left;
+    width:770px;
+}
+
+#baseLayout4 {
+    position:relative; float:left;
+    width:1000px;
+}
+
+#baseLayout5 {
+    position:relative; float:left;
+    width:980px;
+}
+
+#baseLayout6 {
+    position:relative; float:left;
+    width:980px;
+}
+
+#baseLayout7 {
+    position:relative; float:left;
+    width:980px;
+}
+
+#baseLayout8 {
+    position:relative; float:left;
+    width:980px;
+}
+
+#baseLayout9 {
+    position:absolute; top:0px; left:0px;
+    width:980px;
+}
+
+
+
+.quit_skip{ display:block; height:1px; width:1px; margin:0 -1px -1px 0; padding:0; overflow:hidden; font-size:0; line-height:0;}
+.quit_skip:hover,
+.quit_skip:active,
+.quit_skip:focus{ width:100%; height:auto; margin:0; padding:5px 0; text-indent:10px; font-weight:bold; font-size:12px; color:#2d2d2d; font-family:Tahoma; line-height:1; text-decoration:none !important;}

@@ -1,0 +1,25 @@
+#condata {
+	font-size:0.75em; 
+}
+#condata .condata_box {
+	width:770px;
+	padding-bottom:10px;
+}
+#condata .condata_box .conTitle {
+	height:30px;
+	border-bottom:1px solid #2169b5;
+	padding-bottom:10px;
+}
+#condata .condata_box .conTitle img {
+	padding-top:7px;
+	border:1px soild red;
+	float:left;
+}
+#condata .condata_box .conTitle span {
+	padding-top:14px;
+	float:right;
+}
+#condata .body {
+	width:770px;
+	margin-top:30px;
+}

@@ -1,0 +1,561 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0082)http://www.paekun.hs.kr/main.php?menugrp=020100&master=diary&act=list&master_sid=1 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>교육활동 &gt; 학사일정</title>
+<link href="./Google_files/S1.css" rel="stylesheet" type="text/css">
+<link href="./Google_files/widget.css" rel="stylesheet" type="text/css">
+<link href="./Google_files/widget(1).css" rel="stylesheet" type="text/css">
+<link href="./Google_files/widget(2).css" rel="stylesheet" type="text/css">
+<link href="./Google_files/widget(3).css" rel="stylesheet" type="text/css">
+<link href="./Google_files/widget(4).css" rel="stylesheet" type="text/css">
+<link href="./Google_files/widget(5).css" rel="stylesheet" type="text/css">
+<link href="./Google_files/widget(6).css" rel="stylesheet" type="text/css">
+<link href="./Google_files/css_maker.php" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./Google_files/jquery-1.4.3.min.js.다운로드"></script>
+<script type="text/javascript" src="./Google_files/common.js.다운로드"></script>
+</head>
+<body>
+
+<a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=list&amp;master_sid=1#condata" class="quit_skip">본문 바로가기</a>
+
+<div id="mainLayout">
+<div id="baseLayout1"><div id="wg_logo">
+    <a href="http://www.paekun.hs.kr/main.php"><img src="./Google_files/logo.gif" alt="로고" border="0"></a>
+</div>
+<div id="wg_topnavi">
+    <div class="topnavi_box">
+        <ul>
+            <li><a href="http://www.paekun.hs.kr/main.php"><img src="./Google_files/topnavi_home.gif" alt="홈"></a> | </li>
+            <li><a href="http://www.paekun.hs.kr/main.php?master=member&amp;act=exec&amp;mode=logout"><img src="./Google_files/topnavi_logout.gif" alt="로그아웃"></a> | </li>
+            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=810100&amp;master=html&amp;act=page" target="_self"><img src="./Google_files/topnavi_sitemap.gif" alt="사이트맵"></a></li>
+        </ul>
+    </div>
+</div>
+<div id="wg_topmenu">    
+    <div class="Gnb_left"></div>
+    <div class="Gnb_middle">
+        <ul>
+            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=010100&amp;master=html&amp;act=page" target="_self" onmouseover="Action_Toggle_TopMenu(&#39;TopMenuSub&#39;, 13, 01);">학교안내</a>
+                <div class="Sub_menu" id="TopMenuSub01" style="display:none; margin-left:20px;">
+                    <div class="Sub_left"></div>
+                    <div class="Sub_middle">
+                        <ul class="menuSub">
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=010100&amp;master=html&amp;act=page" target="_self">교직원 인사말</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=010200&amp;master=html&amp;act=page" target="_self">학교연혁</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=010300&amp;master=html&amp;act=page" target="_self">교훈/교육지표</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=010400&amp;master=html&amp;act=page" target="_self">학교상징</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=010500&amp;master=html&amp;act=page" target="_self">학교현황</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=010600&amp;master=html&amp;act=page" target="_self">경영중점 및 역점사업</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=010700&amp;master=html&amp;act=page" target="_self">특색사업</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=010800&amp;master=html&amp;act=page" target="_self">교직원소개</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=010900&amp;master=html&amp;act=page" target="_self">홍보자료</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=011000&amp;master=html&amp;act=page" target="_self">학교위치</a> </li>
+                        </ul>
+                    </div>
+                    <div class="Sub_right"></div>
+                </div>
+            </li>
+            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=list&amp;master_sid=1" target="_self" onmouseover="Action_Toggle_TopMenu(&#39;TopMenuSub&#39;, 13, 02);">교육활동</a>
+                <div class="Sub_menu" id="TopMenuSub02" style="margin-left: 80px; display: none;">
+                    <div class="Sub_left"></div>
+                    <div class="Sub_middle">
+                        <ul class="menuSub">
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=list&amp;master_sid=1" target="_self">학사일정</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=020200&amp;master=bbs&amp;act=list&amp;master_sid=1" target="_self">교육과정</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=020300&amp;master=bbs&amp;act=list&amp;master_sid=65" target="_self">클러스터교육과정</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=020400&amp;master=bbs&amp;act=list&amp;master_sid=2" target="_self">교육계획</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=020600&amp;master=bbs&amp;act=list&amp;master_sid=4" target="_self">학교규정</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=020701&amp;master=bbs&amp;act=list&amp;master_sid=63" target="_self">학교운영위원회</a> </li>
+                        </ul>
+                    </div>
+                    <div class="Sub_right"></div>
+                </div>
+            </li>
+            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=030100&amp;master=bbs&amp;act=list&amp;master_sid=6" target="_self" onmouseover="Action_Toggle_TopMenu(&#39;TopMenuSub&#39;, 13, 03);">알림마당</a>
+                <div class="Sub_menu" id="TopMenuSub03" style="display:none; margin-left:150px;">
+                    <div class="Sub_left"></div>
+                    <div class="Sub_middle">
+                        <ul class="menuSub">
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=030100&amp;master=bbs&amp;act=list&amp;master_sid=6" target="_self">공지사항 </a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=030200&amp;master=bbs&amp;act=list&amp;master_sid=7" target="_self">가정통신문 </a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=030400&amp;master=bbs&amp;act=list&amp;master_sid=8" target="_self">소식지</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=030500&amp;master=bbs&amp;act=list&amp;master_sid=9" target="_self">포토앨범</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=030600&amp;master=bbs&amp;act=list&amp;master_sid=10" target="_self">동영상</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=030701&amp;master=meal2&amp;act=list" target="_self">학교급식</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=030800&amp;master=bbs&amp;act=list&amp;master_sid=22" target="_self">행정실 알림</a> </li>
+                            <li><a href="http://www.schoolinfo.go.kr/index.jsp?HG_CD=J100000569" target="_blank">학교알리미</a> </li>
+                        </ul>
+                    </div>
+                    <div class="Sub_right"></div>
+                </div>
+            </li>
+            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=040100&amp;master=html&amp;act=page" target="_self" onmouseover="Action_Toggle_TopMenu(&#39;TopMenuSub&#39;, 13, 04);">학생활동</a>
+                <div class="Sub_menu" id="TopMenuSub04" style="margin-left: 230px;">
+                    <div class="Sub_left"></div>
+                    <div class="Sub_middle">
+                        <ul class="menuSub">
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=040100&amp;master=html&amp;act=page" target="_self">학생회 </a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=040200&amp;master=html&amp;act=page" target="_self">동아리</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=040300&amp;master=bbs&amp;act=list&amp;master_sid=13" target="_self">학교스포츠클럽 </a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=040400&amp;master=bbs&amp;act=list&amp;master_sid=14" target="_self">학교폭력신고</a> </li>
+                            <li><a href="http://mobifood.co.kr/service/paekun.php" target="_blank">학생증발급</a> </li>
+                        </ul>
+                    </div>
+                    <div class="Sub_right"></div>
+                </div>
+            </li>
+            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=050100&amp;master=bbs&amp;act=list&amp;master_sid=15" target="_self" onmouseover="Action_Toggle_TopMenu(&#39;TopMenuSub&#39;, 13, 05);">열린마당</a>
+                <div class="Sub_menu" id="TopMenuSub05" style="display:none; margin-left:320px;">
+                    <div class="Sub_left"></div>
+                    <div class="Sub_middle">
+                        <ul class="menuSub">
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=050100&amp;master=bbs&amp;act=list&amp;master_sid=15" target="_self">자유게시판</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=050200&amp;master=bbs&amp;act=list&amp;master_sid=16" target="_self">학부모게시판 </a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=050300&amp;master=bbs&amp;act=list&amp;master_sid=17" target="_self">성적민원게시판</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=050401&amp;master=bbs&amp;act=list&amp;master_sid=18" target="_self">행정정보공개 </a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=050500&amp;master=bbs&amp;act=list&amp;master_sid=22" target="_self">행정실 알림</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=050600&amp;master=bbs&amp;act=list&amp;master_sid=23" target="_self">민원관련 게시판</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=050700&amp;master=bbs&amp;act=list&amp;master_sid=67" target="_self">학교시설개방창구</a> </li>
+                        </ul>
+                    </div>
+                    <div class="Sub_right"></div>
+                </div>
+            </li>
+            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=060100&amp;master=bbs&amp;act=list&amp;master_sid=24" target="_self" onmouseover="Action_Toggle_TopMenu(&#39;TopMenuSub&#39;, 13, 06);">진로진학/보건</a>
+                <div class="Sub_menu" id="TopMenuSub06" style="display:none; margin-left:400px;">
+                    <div class="Sub_left"></div>
+                    <div class="Sub_middle">
+                        <ul class="menuSub">
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=060100&amp;master=bbs&amp;act=list&amp;master_sid=24" target="_self">대입정보</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=060200&amp;master=bbs&amp;act=list&amp;master_sid=25" target="_self">진로정보</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=060300&amp;master=bbs&amp;act=list&amp;master_sid=26" target="_self">학교생활상담</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=060400&amp;master=bbs&amp;act=list&amp;master_sid=27" target="_self">보건소식</a> </li>
+                        </ul>
+                    </div>
+                    <div class="Sub_right"></div>
+                </div>
+            </li>
+            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=070100&amp;master=bbs&amp;act=list&amp;master_sid=28" target="_self" onmouseover="Action_Toggle_TopMenu(&#39;TopMenuSub&#39;, 13, 07);">학습마당</a>
+                <div class="Sub_menu" id="TopMenuSub07" style="display:none; margin-left:540px;">
+                    <div class="Sub_left"></div>
+                    <div class="Sub_middle">
+                        <ul class="menuSub">
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=070100&amp;master=bbs&amp;act=list&amp;master_sid=28" target="_self">독서논술방 </a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=070201&amp;master=bbs&amp;act=list&amp;master_sid=29" target="_self">학습자료방 </a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=070300&amp;master=bbs&amp;act=list&amp;master_sid=62" target="_self">방과후학교</a> </li>
+                        </ul>
+                    </div>
+                    <div class="Sub_right"></div>
+                </div>
+            </li>
+            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=080100&amp;master=bbs&amp;act=list&amp;master_sid=45" target="_self" onmouseover="Action_Toggle_TopMenu(&#39;TopMenuSub&#39;, 13, 08);">과학중점학교</a>
+                <div class="Sub_menu" id="TopMenuSub08" style="display:none; margin-left:560px;">
+                    <div class="Sub_left"></div>
+                    <div class="Sub_middle">
+                        <ul class="menuSub">
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=080100&amp;master=bbs&amp;act=list&amp;master_sid=45" target="_self">공지사항</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=080200&amp;master=bbs&amp;act=list&amp;master_sid=46" target="_self">과제연구 </a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=080400&amp;master=bbs&amp;act=list&amp;master_sid=51" target="_self">활동모습</a> </li>
+                        </ul>
+                    </div>
+                    <div class="Sub_right"></div>
+                </div>
+            </li>
+            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=090100&amp;master=html&amp;act=page" target="_self" onmouseover="Action_Toggle_TopMenu(&#39;TopMenuSub&#39;, 13, 09);">백운학사</a>
+                <div class="Sub_menu" id="TopMenuSub09" style="display:none; margin-left:700px;">
+                    <div class="Sub_left"></div>
+                    <div class="Sub_middle">
+                        <ul class="menuSub">
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=090100&amp;master=html&amp;act=page" target="_self">백운학사소개</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=090200&amp;master=bbs&amp;act=list&amp;master_sid=52" target="_self">알림마당</a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=090300&amp;master=bbs&amp;act=list&amp;master_sid=53" target="_self">생활모습</a> </li>
+                        </ul>
+                    </div>
+                    <div class="Sub_right"></div>
+                </div>
+            </li>
+            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=100100&amp;master=bbs&amp;act=list&amp;master_sid=54" target="_self" onmouseover="Action_Toggle_TopMenu(&#39;TopMenuSub&#39;, 13, 10);">학교재정공개</a>
+                <div class="Sub_menu" id="TopMenuSub10" style="display:none; margin-left:400px;">
+                    <div class="Sub_left"></div>
+                    <div class="Sub_middle">
+                        <ul class="menuSub">
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=100100&amp;master=bbs&amp;act=list&amp;master_sid=54" target="_self">예결산현황 </a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=100200&amp;master=bbs&amp;act=list&amp;master_sid=55" target="_self">업무추진비 집행내역 </a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=100300&amp;master=bbs&amp;act=list&amp;master_sid=56" target="_self">물품 및 공사 계약 </a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=100400&amp;master=bbs&amp;act=list&amp;master_sid=57" target="_self">수익자부담경비 집행내역 </a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=100500&amp;master=bbs&amp;act=list&amp;master_sid=58" target="_self">감사결과 </a> </li>
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=100600&amp;master=bbs&amp;act=list&amp;master_sid=59" target="_self">기타 </a> </li>
+                        </ul>
+                    </div>
+                    <div class="Sub_right"></div>
+                </div>
+            </li>
+            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=120100&amp;master=bbs&amp;act=list&amp;master_sid=3" target="_self" onmouseover="Action_Toggle_TopMenu(&#39;TopMenuSub&#39;, 13, 12);">학교평가</a>
+                <div class="Sub_menu" id="TopMenuSub12" style="display:none; margin-left:900px;">
+                    <div class="Sub_left"></div>
+                    <div class="Sub_middle">
+                        <ul class="menuSub">
+                            <li><a href="http://www.paekun.hs.kr/main.php?menugrp=120100&amp;master=bbs&amp;act=list&amp;master_sid=3" target="_self">학교평가</a> </li>
+                        </ul>
+                    </div>
+                    <div class="Sub_right"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="Gnb_right"></div>
+</div>
+<div id="wg_html3">
+    <div class="html3_box">
+     </div>
+</div></div>
+<div id="baseLayout2"><div id="wg_leftmenu">
+    <div class="leftmenu_box">
+        <ul>
+            <li class="top"><img src="./Google_files/78500ba2bcb4ab1ba046a590fd96fcf0.png" alt="교육활동" border="0"></li>
+            <li class="menuon"><a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=list&amp;master_sid=1" target="_self">학사일정</a></li>
+            <li class="menu"><a href="http://www.paekun.hs.kr/main.php?menugrp=020200&amp;master=bbs&amp;act=list&amp;master_sid=1" target="_self">교육과정</a></li>
+            <li class="menu"><a href="http://www.paekun.hs.kr/main.php?menugrp=020300&amp;master=bbs&amp;act=list&amp;master_sid=65" target="_self">클러스터교육과정</a></li>
+            <li class="menu"><a href="http://www.paekun.hs.kr/main.php?menugrp=020400&amp;master=bbs&amp;act=list&amp;master_sid=2" target="_self">교육계획</a></li>
+            <li class="menu"><a href="http://www.paekun.hs.kr/main.php?menugrp=020600&amp;master=bbs&amp;act=list&amp;master_sid=4" target="_self">학교규정</a></li>
+            <li class="menu"><a href="http://www.paekun.hs.kr/main.php?menugrp=020701&amp;master=bbs&amp;act=list&amp;master_sid=63" target="_self">학교운영위원회</a></li>
+            <li class="bottom"></li>
+        </ul>
+    </div>
+</div></div>
+<div id="baseLayout3"><div id="condata">
+    <div class="condata_box">
+        <div class="conTitle">
+            <img src="./Google_files/81f33e292bbbb4ff17b894ef5425fa7f.png" alt="학사일정" border="0">
+            <span>홈 &gt; 교육활동 &gt; <b>학사일정</b></span>
+        </div>
+
+        <div class="body" style="position: relative;">
+            <link rel="stylesheet" type="text/css" href="./Google_files/diary.css">
+<div class="diaryWrap">
+
+    
+
+    <!-- 폼 -->
+    <form method="get" name="form1">
+    <input type="hidden" name="menugrp" value="020100">
+    <input type="hidden" name="master" value="diary">
+    <input type="hidden" name="act" value="list">
+    <input type="hidden" name="mode" value="">
+
+    <input type="hidden" name="master_sid" value="1">
+
+    <input type="hidden" name="sid">
+    <input type="hidden" name="Page" value="">
+
+    <input type="hidden" name="SearchDay" value="">
+    <input type="hidden" name="SearchMoveMonth" value="">
+
+
+    <div class="diarySearch">
+        <div class="diaryLeft">
+        </div>
+
+        <div class="diaryRight">
+            <select name="SearchYear" align="absmiddle">
+                <option value="2010">2010년</option>
+                <option value="2011">2011년</option>
+                <option value="2012">2012년</option>
+                <option value="2013">2013년</option>
+                <option value="2014">2014년</option>
+                <option value="2015">2015년</option>
+                <option value="2016">2016년</option>
+                <option value="2017" selected="">2017년</option>
+            </select>
+            <select name="SearchMonth" align="absmiddle">
+                <option value="01">01월</option>
+                <option value="02">02월</option>
+                <option value="03">03월</option>
+                <option value="04">04월</option>
+                <option value="05">05월</option>
+                <option value="06">06월</option>
+                <option value="07">07월</option>
+                <option value="08">08월</option>
+                <option value="09">09월</option>
+                <option value="10">10월</option>
+                <option value="11" selected="">11월</option>
+                <option value="12">12월</option>
+            </select>
+            <input type="image" src="./Google_files/search.gif" border="0" alt="검색" align="absmiddle">
+        </div>
+    </div>
+
+
+    <!-- 본문부분 -->
+    <div class="diaryContent">
+        <div class="listHead diarySun">일요일</div>
+        <div class="listHead">월요일</div>
+        <div class="listHead">화요일</div>
+        <div class="listHead">수요일</div>
+        <div class="listHead">목요일</div>
+        <div class="listHead">금요일</div>
+        <div class="listHead diarySat">토요일</div>
+
+        <div class="listBody">
+            <div class="listDay diarySun "></div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  "></div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  "></div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">1</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">2</div>
+
+            <div class="listData">
+<div class="ellipsis" style="height:18px;">☞ <a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=view&amp;master_sid=1&amp;sid=229&amp;SearchYear=2017&amp;SearchMonth=11&amp;SearchCategory=">역사말하기 대회 작품접수</a></div>            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">3</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay diarySat ">4</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay diarySun ">5</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">6</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">7</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">8</div>
+
+            <div class="listData">
+<div class="ellipsis" style="height:18px;">☞ <a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=view&amp;master_sid=1&amp;sid=168&amp;SearchYear=2017&amp;SearchMonth=11&amp;SearchCategory=">과제연구</a></div>            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">9</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">10</div>
+
+            <div class="listData">
+<div class="ellipsis" style="height:18px;">☞ <a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=view&amp;master_sid=1&amp;sid=230&amp;SearchYear=2017&amp;SearchMonth=11&amp;SearchCategory=">역사말하기 대회 예심 결과 발표</a></div>            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay diarySat ">11</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay diarySun diaryToday">12</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">13</div>
+
+            <div class="listData">
+<div class="ellipsis" style="height:18px;">☞ <a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=view&amp;master_sid=1&amp;sid=169&amp;SearchYear=2017&amp;SearchMonth=11&amp;SearchCategory=">과제연구</a></div>            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">14</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">15</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">16</div>
+
+            <div class="listData">
+<div class="ellipsis" style="height:18px;">☞ <a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=view&amp;master_sid=1&amp;sid=208&amp;SearchYear=2017&amp;SearchMonth=11&amp;SearchCategory=">대학수학능력시험</a></div><div class="ellipsis" style="height:18px;">☞ <a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=view&amp;master_sid=1&amp;sid=210&amp;SearchYear=2017&amp;SearchMonth=11&amp;SearchCategory=">1,2학년 재량휴업</a></div>            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">17</div>
+
+            <div class="listData">
+<div class="ellipsis" style="height:18px;">☞ <a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=view&amp;master_sid=1&amp;sid=231&amp;SearchYear=2017&amp;SearchMonth=11&amp;SearchCategory=">역사말하기 대회 본선</a></div>            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay diarySat ">18</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay diarySun ">19</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">20</div>
+
+            <div class="listData">
+<div class="ellipsis" style="height:18px;">☞ <a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=view&amp;master_sid=1&amp;sid=212&amp;SearchYear=2017&amp;SearchMonth=11&amp;SearchCategory=">3학년 2차지필평가</a></div>            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">21</div>
+
+            <div class="listData">
+<div class="ellipsis" style="height:18px;">☞ <a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=view&amp;master_sid=1&amp;sid=212&amp;SearchYear=2017&amp;SearchMonth=11&amp;SearchCategory=">3학년 2차지필평가</a></div>            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">22</div>
+
+            <div class="listData">
+<div class="ellipsis" style="height:18px;">☞ <a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=view&amp;master_sid=1&amp;sid=211&amp;SearchYear=2017&amp;SearchMonth=11&amp;SearchCategory=">전국연합학력평가(1,2학년)</a></div><div class="ellipsis" style="height:18px;">☞ <a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=view&amp;master_sid=1&amp;sid=212&amp;SearchYear=2017&amp;SearchMonth=11&amp;SearchCategory=">3학년 2차지필평가</a></div>            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">23</div>
+
+            <div class="listData">
+<div class="ellipsis" style="height:18px;">☞ <a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=view&amp;master_sid=1&amp;sid=212&amp;SearchYear=2017&amp;SearchMonth=11&amp;SearchCategory=">3학년 2차지필평가</a></div>            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">24</div>
+
+            <div class="listData">
+<div class="ellipsis" style="height:18px;">☞ <a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=view&amp;master_sid=1&amp;sid=212&amp;SearchYear=2017&amp;SearchMonth=11&amp;SearchCategory=">3학년 2차지필평가</a></div><div class="ellipsis" style="height:18px;">☞ <a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=view&amp;master_sid=1&amp;sid=233&amp;SearchYear=2017&amp;SearchMonth=11&amp;SearchCategory=">경제능력평가대회</a></div>            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay diarySat ">25</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay diarySun ">26</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">27</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">28</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">29</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  ">30</div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  "></div>
+
+            <div class="listData">
+            </div>
+        </div>
+        <div class="listBody">
+            <div class="listDay  "></div>
+
+            <div class="listData">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="diaryButton">
+        <div class="diaryLeft">
+            <a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=write&amp;master_sid=1&amp;Page=&amp;SearchYear=2017&amp;SearchMonth=11&amp;SearchCategory="><img src="./Google_files/write.gif" border="0" alt="등록하기"></a>
+        </div>
+        <div class="diaryRight">
+            <a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=list&amp;master_sid=1&amp;SearchYear=2017&amp;SearchMonth=11&amp;SearchCategory=&amp;SearchMoveMonth=-1"><img src="./Google_files/prevMonth.gif" border="0" alt="이전달"></a>
+            <a href="http://www.paekun.hs.kr/main.php?menugrp=020100&amp;master=diary&amp;act=list&amp;master_sid=1&amp;SearchYear=2017&amp;SearchMonth=11&amp;SearchCategory=&amp;SearchMoveMonth=1"><img src="./Google_files/nextMonth.gif" border="0" alt="다음달"></a>
+        </div>
+    </div>
+
+    </form>
+
+    
+</div>
+        </div>
+    </div>
+</div></div>
+<div id="baseLayout4"><div id="wg_footer">
+    <div class="footer_box">
+        <div class="logo"><img src="./Google_files/foot_logo.gif" alt="백운고등학교"></div>
+
+        <div class="link"> 
+            <ul>
+                <li><a href="http://www.paekun.hs.kr/main.php?menugrp=810300&amp;master=html&amp;act=page"><span style="font-weight:bold; color:blue;">개인정보처리방침</span></a></li>
+                <li>|</li>
+                <li><a href="http://www.paekun.hs.kr/main.php?menugrp=810400&amp;master=html&amp;act=page">저작권신고</a></li>
+                <li>|</li>
+                <li><a href="http://www.paekun.hs.kr/main.php?menugrp=810200&amp;master=html&amp;act=page">이메일무단수집거부</a></li>
+            </ul>
+        </div>
+
+        <div class="addr"> 
+            우) 16029 경기도 의왕시 내손순환로 136 백운고등학교 | 교무실 : 031-423-2333 | 행정실 : 031-423-2335 | FAX : 031-424-2544
+<br>
+        </div>
+
+        <div class="copy"> 
+            Copyright(c) 2013 www.paekun.hs.kr All rights reserved.
+        </div>
+
+    </div>
+</div></div>
+</div>
+
+
+
+</body></html>

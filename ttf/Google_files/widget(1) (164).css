@@ -1,0 +1,22 @@
+#wg_topnavi {
+font-size:0.75em;
+color:#c1c1c1;
+}
+
+#wg_topnavi .topnavi_box {
+    margin:15px 0 0 0;
+}
+
+#wg_topnavi .topnavi_box img {
+	vertical-align:top;
+}
+
+#wg_topnavi .topnavi_box ul {
+    list-style:none; margin:0; padding:0;
+    float:right;
+}
+
+#wg_topnavi .topnavi_box li {
+    padding-left:2px;
+    float:left;
+}

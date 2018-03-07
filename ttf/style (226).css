@@ -1,0 +1,139 @@
+    html {
+        height: 100%; 
+    }
+    body {
+        padding: 0;
+        text-align: center;
+        font-family: 'godomaum', serif;
+        position: relative;
+        margin: 0;
+        background-color: #14426d;/*#0d4447*/
+    }
+        
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .wheel-button, .wheel-button:visited {
+        font-family: 'godomaum', serif;
+        background-size: cover;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        margin-top: 10vh !important;        
+    } 
+    .list{
+        font-size: 20px;
+        width: 20vw;
+        margin: 1vw;
+    }
+    .list li{
+        float: left;
+        clear: left !important;
+        line-height: 8vh;
+    }
+   
+     .main {
+        float: left;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+        padding: 0;
+    } 
+    .wheel-button{
+        text-align: center;
+        position: relative;
+        margin-top: 30vh !important; 
+    }
+    #footer{
+        margin-bottom: 10;
+        color: white;
+        position: relative;
+        top: 30vh;
+        text-align: center;
+        margin: 0 auto;
+    }
+    /* .wheel li{
+        display: block;
+    } */
+    @font-face {
+        font-family: godomaum; 
+        src: url(ttf/godomaum.ttf)
+      } 
+    @media all and (max-width: 768px) {
+            
+        .wheel-button, .wheel-button:visited {
+            width: 35vw;
+            height: 35vw;
+            background-image: url('plus.png');   
+            background-size: 50%;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-top: 40vh !important;
+        }
+        .wheel-button span{
+            display: none;
+        }
+        .f_category{
+            font-size: 15px;
+            line-height: 18vw;
+            width: 18vw  ;
+            height: 18vw;
+        }
+       
+        .f_category, .f_category:visited {
+            background-image:url(circle.gif);
+            background-size: cover;
+            text-align: center;        
+            -moz-transition: all 0.25s ease;
+            -webkit-transition: all 0.25s ease;
+            -o-transition: all 0.25s ease;
+            transition: all 0.25s ease;
+        }
+    }
+    @media all and (min-width: 768px) { 
+        /* and (max-width: 1024px) {
+            
+    }
+    @media all and (min-width: 1025px) */
+        .wheel-button, .wheel-button:visited {
+            width: 15vw;
+            height: 15vw;
+            color: white;
+            line-height: 15vw;
+            background-image: url('circle.gif');
+        }
+                
+        #wrapper{
+            width:100vw;
+            height:100vh;
+            position: relative;
+        }
+        .wheel-button span{
+            position: relative;
+            color: white;
+            font-size: 25px;
+                
+        }
+        #wheel{
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+        }    
+        .f_category{
+            font-size: 20px;
+            line-height: 8vw;
+            width: 8vw  ;
+            height: 8vw;
+        }
+       
+        .f_category, .f_category:visited {
+            background-image:url(circle.gif);
+            background-size: cover;
+            text-align: center;        
+            -moz-transition: all 0.25s ease;
+            -webkit-transition: all 0.25s ease;
+            -o-transition: all 0.25s ease;
+            transition: all 0.25s ease;
+        }
+    }

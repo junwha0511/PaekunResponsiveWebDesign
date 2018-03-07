@@ -1,0 +1,19 @@
+
+.wheel-button {
+position: relative;
+}
+.wheel {
+margin: 0;
+padding: 0;
+list-style: none;
+visibility: hidden;
+position: relative;
+display: none;
+}
+.wheel li {
+overflow: hidden;
+float: left;
+}
+.wheel li a {
+display: block;
+}

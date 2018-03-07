@@ -1,0 +1,61 @@
+#wg_leftmenu {
+}
+#wg_leftmenu .leftmenu_box img {
+	vertical-align:top;
+}
+#wg_leftmenu ul {
+	list-style:none;
+	width:210px;
+	background:url(../images/leftmenu_mid.gif) 0 0;
+}
+#wg_leftmenu li {
+}
+#wg_leftmenu .top {
+	background:url(../images/leftmenu_top.gif) no-repeat 0 0;
+	height:46px;
+	width:210px;
+	padding-top:15px;
+	padding-left:40px;
+}
+#wg_leftmenu .bottom {
+	background:url(../images/leftmenu_bottom.gif) no-repeat 0 0;
+	width:210px;
+    height:14px;
+}
+#wg_leftmenu .menu {
+	background:url(../images/leftmenu_off.gif) no-repeat 10px 0;
+	height:25px;
+	width:190px;
+	padding-top:10px;
+	padding-left:40px;
+	font-size:0.8em;
+}
+#wg_leftmenu .menu a{
+	color:#212121;
+	font-weight:bold;
+}
+#wg_leftmenu .menuon {
+	background:url(../images/leftmenu_on.gif) no-repeat 10px 0;
+	height:25px;
+	padding-left:40px;
+	width:190px;
+	padding-top:10px;
+	font-size:0.8em;
+}
+#wg_leftmenu .menuon a{
+	color:#2169b5;
+	font-weight:bold;
+}
+#wg_leftmenu .third {
+	background:url(../images/leftmenu_sub_line.gif) 15px 22px;
+	background-repeat:no-repeat;
+	height:20px;
+	padding-left:45px;
+	width:135px;
+	padding-top:5px;
+	font-size:0.75em;
+}
+#wg_leftmenu .third a{
+	color:#6d6d6d;
+	font-weight:bold;
+}
